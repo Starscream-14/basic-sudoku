@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0 user-scalabe=no"
+    />
+    <title>Sudoku</title>
+
+    <link rel="stylesheet" href="sudoku.css" />
+    <script src="sudoku.js"></script>
+  </head>
+
+  <body>
+    <div class="header">
+      <h1 id="sudoku-title">Sudoku</h1>
+      <button id="night-mode-toggle">🌙 Night Mode</button>
+      <button id="auto-solve-btn">🧩 Auto Solve</button>
+      <button id="new-game-btn">🔄 New Game</button>
+    </div>
+    <hr />
+    <h2 id="errors">0</h2>
+    <h2 id="timer">00:00</h2>
+
+    <!-- The board (9x9) -->
+    <div id="board"></div>
+    <br />
+    <div id="digits"></div>
+  </body>
+</html>
