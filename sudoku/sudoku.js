@@ -47,7 +47,7 @@ function setGame() {
     document.getElementById("digits").appendChild(number);
   }
 
-  // Board
+  // Board Code
   for (let r = 0; r < 9; r++) {
     for (let c = 0; c < 9; c++) {
       let tile = document.createElement("div");
@@ -146,7 +146,7 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 function newGame() {
-    // Reset errors and timer
+    // Reset the timer and errors and start a new game
     errors = 0;
     seconds = 0;
     document.getElementById("errors").innerText = errors;
@@ -172,3 +172,4 @@ function autoSolveSudoku() {
     stopTimer();
     alert("Congratulations! You have completed the game.");
 }
+
